@@ -42,7 +42,7 @@ counterparts:
 
 Ansible-lint will load skip rules from an `.ansible-lint-ignore` or
 `.config/ansible-lint-ignore.txt` file that should reside adjacent to the config file.
-The file format is very simple, containing the filename and the rule to be ignored.
+The file format is very simple, containing the filename and the rule to be ignored. Note that globs/wildcards are not supported. 
 It also supports comments starting with `#`.
 
 ```yaml title=".ansible-lint-ignore"
